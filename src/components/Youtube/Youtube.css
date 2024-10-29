@@ -1,0 +1,63 @@
+.pads {
+    padding: 20px;
+}
+
+.main-bg {
+    background-color: #183153;
+}
+
+.buy1 {
+    display: flex;
+    justify-content: center;
+    color: #DC3545;
+    font-weight: 700;
+    border-bottom: 2px solid #DC3545;
+    cursor: pointer;
+}
+
+.buy2 {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.check-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+@media (max-width: 576px) { /* Adjust for phone sizes */
+    .pads {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .buy1, .buy2 {
+        font-size: 14px; /* Adjust font size */
+        text-align: center;
+    }
+
+    .check-circle {
+        width: 16px; /* Reduce icon size slightly */
+        height: 16px;
+        font-size: 8px;
+    }
+
+    .star p {
+        font-size: 11px;
+        gap: 4px;
+    }
+}
+.all{
+    background-color:#c7eaf4; 
+}
+.find{
+    color: #DC3545;
+    border-bottom: 3px solid #DC3545;
+}

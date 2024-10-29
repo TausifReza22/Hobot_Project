@@ -1,0 +1,141 @@
+/* Style for overlay */
+.img-overlay {
+    position: relative;
+    width: 100%;
+    height: 320px; /* Set a fixed height for the carousel */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.img-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Add a light blue overlay */
+.img-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 190, 252, 0.5); 
+    z-index: 1;
+}
+
+/* Center carousel content */
+.carousel-caption {
+    position: absolute;
+    top: 20px; /* Adjust this to set where you want the text */
+    left: 0; /* Start from the left */
+    right: 0; /* End at the right */
+    z-index: 2;
+    color: white;
+    text-align: center; /* Center text */
+    padding: 0 20px; /* Add padding for small screens */
+}
+
+/* Responsive text size */
+.carousel-caption h1, .carousel-caption h3 {
+    font-size: 1.5rem; 
+    margin: 0;
+}
+
+.carousel-caption p {
+    width: 100%;
+    font-size: 1rem; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding: 0 10px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.2rem; 
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem; 
+    }
+
+    .carousel-caption p {
+        font-size: 0.875rem; 
+    }
+}
+
+/* For very small devices */
+@media (max-width: 480px) {
+    .carousel-caption h1 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 0.875rem; 
+    }
+
+    .carousel-caption p {
+        font-size: 0.75rem;
+    }
+}
+
+.maininput{
+    display: flex;
+    justify-content: center;
+}
+.inp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    width: 70%;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+    outline: none;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.success-btn{
+    font-size: small;
+}
+
+
+@media (min-width: 768px) {
+    .inp {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .input-container {
+        flex: 1;
+    }
+
+    .input-container:last-child {
+        margin-right: 0;
+    }
+}

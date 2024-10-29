@@ -1,0 +1,12 @@
+.login{
+    padding: 0 40px;
+}
+@media (max-width:768px) {
+    .mainform{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit{
+        width: 40vw;
+    }
+}
