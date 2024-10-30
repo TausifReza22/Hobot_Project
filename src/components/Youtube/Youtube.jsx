@@ -53,8 +53,9 @@ function Youtube() {
                 </div>
             </div>
             <br />
-            <div className="all pads">
-                <div class="row align-items-md-stretch">
+            <div className="all pads ">
+                <div className="container">
+                <div class="row align-items-md-stretch ">
                     <div class="col-md-6">
                         <div class="h-100 pads ">
                             <h3 className='fw-bold'>Let Suppliers <span className='find'>Find You</span></h3>
@@ -66,6 +67,7 @@ function Youtube() {
                         <button class="btn btn-danger btn-md" type="button">Get Verified</button>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </>
