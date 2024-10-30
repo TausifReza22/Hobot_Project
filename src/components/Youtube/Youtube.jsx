@@ -4,7 +4,7 @@ import './Youtube.css'
 function Youtube() {
     return (
         <>
-            <div className='pads'>
+            <div className='container'>
                 <div className="main-bg pads rounded-2">
                     <div class="row align-items-md-stretch">
                         <div class="col-md-6">

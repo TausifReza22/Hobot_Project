@@ -3,7 +3,8 @@ import logo from "./habot-logo (1).jpg"
 function NavReact() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-light shadow-lg pads">
+     <div className=" bg-body-light shadow-lg ">
+     <nav class="container navbar navbar-expand-lg  ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src={logo} alt="" height={"30"} />
@@ -44,6 +45,7 @@ function NavReact() {
           </div>
         </div>
       </nav>
+     </div>
     </>
   );
 }

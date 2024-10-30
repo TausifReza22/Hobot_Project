@@ -3,7 +3,7 @@ import React from 'react'
 function Ready() {
     return (
         <>
-            <div class="row align-items-md-stretch">
+            <div class="row align-items-md-stretch container">
                 <div class="col-md-6">
                     <div class="h-100 pads  rounded-3">
                         <h2 className='fw-bold pb-2'>Ready to dive into HABOT?</h2>

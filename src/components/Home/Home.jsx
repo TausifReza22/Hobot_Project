@@ -5,14 +5,14 @@ import './Home.css'; // Add CSS file for styling
 function Home() {
     return (
         <>
-            <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
-                <div className="carousel-inner">
+            <div id="myCarousel" className="carousel slide mb-6 " data-bs-ride="carousel">
+                <div className="  carousel-inner">
                     <div className="carousel-item active">
                         {/* Background image with overlay */}
                         <div className="img-overlay">
                             <img src={imgbg} className="bd-placeholder-img" alt="background" />
                         </div>
-                        <div className="container text-center ">
+                        <div className="container text-center container">
                             <div className="carousel-caption mt-5">
                                 <h3 className='text-center fw-bold'>Are You a Supplier?</h3>
                                 <h1 className="">Explore Matching Opportunities.</h1>

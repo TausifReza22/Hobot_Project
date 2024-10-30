@@ -6,7 +6,8 @@ import logo2 from "./ft2.png"
 function Footer() {
     return (
         <>
-            <div className="ft container pads">
+            <div className="ft ">
+            <div className="container pads">
                 <div className="mainft">
                     <footer className="py-5 div1">
                         <div className="row gx-5 ">
@@ -56,6 +57,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
         </>
